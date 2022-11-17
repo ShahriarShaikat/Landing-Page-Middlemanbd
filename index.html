@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsivee.css">
     <title>MiddlemanBD</title>
 </head>
 <body>
@@ -22,23 +23,39 @@
         <section id="main">
             <div class="container">
                 <div class="mid">
+                    <div class="welcome">
+                        <h1 class="first wow bounceInLeft" data-wow-duration="2s">
+                            মিডলম্যান বিডিতে
+                        </h1>
+                        <h1 class="second wow bounceInRight">আপনাকে স্বাগতম</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="divider">
+            <div class="container">
+                <div class="mid">
+                    <div class="divider-line">
+                        <div class="h-line one wow rotateInDownLeft"
+                        data-wow-duration="3s"></div>
+                        <span class="wow flash" data-wow-duration="2s">
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                        </span>
+                        <div class="h-line two wow rotateInUpRight"
+                        data-wow-duration="2s"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tagline">
+            <div class="container">
+                <div class="mid">
                     <div class="left">
-                        <h1 class="first">মিডলম্যান বিডিতে</h1>
-                        <h1 class="second">আপনাকে স্বাগতম</h1>
                         <p>
                             এটি একটি নেটওয়ার্ক মার্কেটিং প্ল্যাটফর্ম। এটিতে যুক্ত হয়ে আপনি গড়তে পারেন অসাধারণ নেটওয়ার্ক মার্কেটিং ক্যারিয়ার এবং সাথে থাকছে আকর্ষণীয় আয়ের সুযোগ। তাই আজই রেজিষ্ট্রেশন করুন মিডলম্যান বিডিতে। রেজিষ্ট্রেশন এর জন্য যোগাযোগ করুন নিম্ন উল্লেখিত নাম্বারে।
                         </p>
-                        <div class="hot-line">
-                            <div class="hotline-heading">
-                                <div class="h-line one"></div>
-                                <span>Hotline</span>
-                                <div class="h-line two"></div>
-                            </div>
-                            <div class="hotline-contact">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>01951515156</span>
-                            </div>
-                        </div>
                     </div>
                     <div class="right">
                     </div>
@@ -46,8 +63,21 @@
             </div>
         </section>
 
-        <!-- <section id="contact">
-            <div class="space"></div>
+        <section id="divider">
+            <div class="container">
+                <div class="mid">
+                    <div class="divider-line">
+                        <div class="h-line one"></div>
+                        <span>
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                        </span>
+                        <div class="h-line two"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
             <div class="container">
                 <div class="mid">
                     <div class="form">
@@ -64,29 +94,37 @@
                         <ul class="detail-info">
                             <li>
                                 <i class="fa fa-phone" ></i>
-                                <p>+880 1795047219</p>
+                                <p>+880 1951515156</p>
                             </li>
                             <li>
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <p>shahriarshaikat4@gmail.com</p>
+                                <p>info@gmail.com</p>
                             </li>
                             <li>
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <p>shhaikat</p>
+                                <p>Middle Man BD</p>
                             </li>
                             <li>
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <p>Shahriar Shaikat</p>
+                                <p>Middle Man BD</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     
         <!-- <footer>
             <p>Copyright ©2021 All rights reserved | Shahriar Shaikat</p>
         </footer> -->
     </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+
+		new WOW().init(); 
+
+	</script>
 </body>
 </html>
