@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ul li{
+    list-style: none;
+}
+.body-main{
+    
+    background-color: #181B20;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.body-main:before {
+    content: " ";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 700px;  
+    opacity: 0.3; 
+    z-index: -1;
+    background: transparent url('img/Hand-Shaking.gif') no-repeat center center;
+    background-size: 700px 700px;
+  }
+.container{
+    width: 100%;
+    margin: 0;
+}
+.mid{
+    width: 85%;
+    margin: auto;
+}
+header{
+    padding: 18px 0px;
+    width: 100%;
+}
+.logo img{
+    width: 130px;
+}
+#contact,#main{
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+#main .left,#main .right{
+    width: 50%;
+    height: 460px;
+    color: white;
+    float: left;
+}
+#main .left h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px
+}
+#main .left .first{
+    color: #FDC11F;
+    margin-top: 54px;
+}
+#main .left .second{
+    color: #ffffff;
+}
+#main .left p{
+    color: rgb(226 226 226);;
+    margin-top: 18px;
+    line-height: 26px;
+    width: 90%;
+    margin-left: 15px
+}
+#main .left .hot-line{
+    margin: 26px 0px 0px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.hot-line .hotline-heading{
+    text-align: center;
+    position: relative;
+    width: 180px;
+}
+.hot-line .hotline-heading .h-line{
+    float: left;
+    border: 0.5px solid #FDC11F;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+}
+.hot-line .hotline-heading .h-line.one{left: 0;}
+.hot-line .hotline-heading .h-line.two{right: 0;}
+.hot-line .hotline-heading span{
+    float: unset;
+}
+#main .left .hot-line .hotline-contact{margin-top: 10px;}
+#main .left .hot-line .hotline-contact i{
+    color: #FDC11F;
+    margin-right: 10px;
+}
+#main .right{
+    background: transparent url('img/full.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+#contact{
+    background-color: #1d1d1d00;
+}
+#contact .form{
+    width: 45%;
+    padding: 0px 30px;
+    float: left;
+}
+#contact .form input{
+    width: 100%;
+    border: 1px solid #B2BBBC;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#contact .form input[type="submit"]{
+    width: 25%;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#contact .form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    border: 1px solid #B2BBBC;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#contact .form h1{
+    margin-bottom: 13px;
+}
+#contact .form h1,#about .my-picture .skill h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+}
+#about .my-picture .skill label{
+    font-family: sans-serif;
+    color: gray;
+}
+#contact .con-details{
+    width: 40%;
+    padding: 0px 61px;
+    float: left;
+}
+#contact .container .mid{
+    overflow: hidden;
+}
+.con-details .detail-info li{
+    float: left;
+    width: 50%;
+    margin: 35px auto;
+}
+.con-details .detail-info li i{
+    margin-bottom: 15px;
+    color: #fa500a;
+    font-size: 40px;
+}
+.con-details .detail-info li p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: gray;
+}
+.con-details .detail-info{
+    margin-top: 70px;
+    margin-left: 15px;
+}
