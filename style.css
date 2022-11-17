@@ -168,8 +168,8 @@ header .logo{text-align: center;}
     color: #FDC11F;
 }
 .con-details .detail-info{    
-    margin-top: 55px;
-    padding-left: 100px;
+    width: 80%;
+    margin: 55px auto;
     overflow: hidden;
 }
 #contact .con-details{
