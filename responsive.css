@@ -1,23 +1,36 @@
-@media only screen and (max-width: 600px) {
-    #main .left{
-        width: 100%;
-        height: 405px;
-        float: unset;
+@media only screen and (max-width: 500px) {
+    .body-main:before{
+        background-size: 500px 500px;
     }
-    #main .right {
-        width: 100%;
-        height: 325px;
-        float: unset;
+    #main .welcome{
+        margin-top: 70px;
     }
-    #main .left .first {
-        margin-top: 30px;
-    }
-    #main .left h1{
+    #main .welcome h1 {
         font-size: 35px;
     }
-    #main .left p{
-        width: 100%;
-        margin-right: 15px;
+    #divider .divider-line{
+        width: 80%;
     }
-  }
+    #tagline .left, #tagline .right{
+        width: 100%;
+        float: unset;
+    }
+    #tagline .left{height: auto;}
+    #tagline .right{height: 330px;}
+    #tagline .left p {
+        line-height: 42px;
+        width: 100%;
+        margin: 0;
+    }
+    #contact .form,#contact .con-details{
+        width: 100%;
+        float: unset;
+    }
+    #main, #tagline, #contact {
+        padding: 70px 0;
+    }
+    #divider .divider-line .h-line{
+        width: 38%;
+    }
+}
 
