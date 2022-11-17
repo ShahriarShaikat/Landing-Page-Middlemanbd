@@ -33,12 +33,16 @@ ul li{
     width: 85%;
     margin: auto;
 }
+.margin-top_10{
+    margin-top: 10px;
+}
 
 /*----------------Header------------------*/
 header{
     padding: 18px 0px;
     width: 100%;
 }
+header .logo{text-align: center;}
 .logo img{
     width: 130px;
 }
@@ -163,17 +167,55 @@ header{
     font-family: sans-serif;
     color: #FDC11F;
 }
-#about .my-picture .skill label{
-    font-family: sans-serif;
-    color: gray;
+.con-details .detail-info{    
+    margin-top: 55px;
+    padding-left: 100px;
+    overflow: hidden;
 }
 #contact .con-details{
     width: 50%;
     float: left;
 }
+#contact .con-details .detail-info .item{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+#contact .con-details .item .one{
+    width: 20%;
+    float: left;
+}
+#contact .con-details .item .two{
+    width: 80%;
+    float: left;
+}
+#contact .con-details .item .one i{
+    font-size: 40px;
+    color: #FDC11F;
+}
+#contact .con-details .item .two h2{
+    color: #FDC11F;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#contact .con-details .item .two p{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
 #contact .container .mid{
     overflow: hidden;
 }
+
+
+
+
+
+
+
+
 .con-details .detail-info li{
     text-align: center;
     float: left;
@@ -191,7 +233,4 @@ header{
     font-family: sans-serif;
     color: #ffffff;
 }
-.con-details .detail-info{    
-    margin-top: 70px;
-    overflow: hidden;
-}
+
