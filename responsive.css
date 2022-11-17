@@ -31,6 +31,9 @@
         width: 100%;
         float: unset;
     }
+    .con-details .detail-info{
+        padding-left: 0px;
+    }
     #main, #tagline, #contact {
         padding: 70px 0;
     }
